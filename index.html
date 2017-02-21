@@ -64,32 +64,88 @@
 			<h4 id=toDoList>To-Do List</h4>
 				<h5 id=toDoListDate>February 13th 2014</h5>	
 				<nav id="midMenu">
-            		<li class="toDo">
-              			<a href="#goTo">Go to grocery store for:</a></li>
-							<ol>
-    							<li>Milk</li>
-    							<li>Frozen Pizza</li>
-    							<li>Tortilla Chips</li>
-    							<li>Yogurt</li>
-    						</ol>
-					<li class="toDo">
-              			<a href="#bake">Bake Butter Mochi</a></li>              
-            		<li class="toDo">
-              			<a href="#clean">Clean Living Room</a></li>    
-            		<li class="toDo">
-              			<a href="#candles">Check if I have enough candles for dinner</a></li>
-					<li class="toDo">
-              			<a href="#doLaundry">Do Laundry</a></li>
-							<ul>
-        						<li>Remember to do the whites <u>separate from Colors!</u></li>
-        						<li>Air out delicates</li>
-							</ul>
-
+  							<ul class="toDo">
+    							<li>Go to grocery store for:</li>
+    								<ol>
+    									<li>Milk</li>
+    									<li>Frozen Pizza</li>
+    									<li>Tortilla Chips</li>
+    									<li>Yogurt</li>
+    								</ol>
+      								
+    							<li>Bake Butter Mochi</li>
+    							<li>Clean Living Room</li>
+    							<li>Check if I have enough candles for dinner</li>
+    							<li>Do Laundry</li>
+    								<ul>
+        								<li>Remember to do the whites <u>separate from Colors!</u></li>
+        								<li>Air out delicates</li>
+      								</ul>
+  							</ul>
 				</nav>
 
 	</section>
 
-	<section id="bottom"></section>
+	<section id="bottom">
+		<h4 id=contactMe>Contact Me</h4>
+			<p id=contactText>Enter your message below. Be sure to fill in you email so that I can respond to you!</p>
+
+    										<form>
+      											<fieldset>
+        										<p>
+          											<label>Your Email: </label>
+          											<input type = "text"
+                 											id = "myText"
+                 											value = "" />
+        										</p>
+        										<p>
+          											<label>Message: </label>
+          											<textarea id = "myTextArea"
+                  												rows = "10"
+                  												cols = "50"></textarea>
+        										</p>
+      											</fieldset>
+    										</form>
+			<p id=hawaiiQuestion>Curious, Are you from Hawaii??</p>
+
+	 <fieldset>
+		<p>
+          <label id=fromHawaii></label>            
+          <input type = "radio"
+                 name = "radSize"
+                 id = "sizeSmall"
+                 value = "small"
+                 checked = "checked" />
+          <label for = "sizeSmall">Yes</label></br>
+          <input type = "radio"
+                 name = "radSize"
+                 id = "sizeMed"
+                 value = "medium" />
+          <label for = "sizeMed">No</label>
+		<p>
+
+           <label id=checkBoxes></label>
+             <input type = "checkbox"
+                 id = "chkBox"
+                 value = "firstTime" />
+             <label for = "chkBox">First time to my site?</label>
+		</p>
+		<p>
+
+             <select id = "myList">
+               <option value = "1">Pizza</option>
+               <option value = "2">Pina Colada Bubble Drink</option>
+               <option value = "3">Fresh Corned Beef and Cabbage</option>
+               <option value = "4">Beef Stew</option>
+             </select>
+          </br>
+          <input type="submit" value="Submit" />
+          </p>
+		<p>Wray Farias 2014</p>
+		</p>       
+      </fieldset> 
+
+	</section>
 
 	<section id="final"></section>
 
